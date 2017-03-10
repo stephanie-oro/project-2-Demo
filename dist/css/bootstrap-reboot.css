@@ -1,3 +1,13 @@
+.jumbotron {
+  background-image: url(../images/music_hall.jpg);
+  background-attachment: fixed;
+  min-height: 400px;
+}
+
+.card {
+  border: none !important;
+}
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -312,7 +322,7 @@ ul ol {
 }
 
 dt {
-  font-weight: bold;
+  font-weight: 700px;
 }
 
 dd {

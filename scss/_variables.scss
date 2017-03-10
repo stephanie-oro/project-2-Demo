@@ -255,7 +255,7 @@ $font-size-sm:   .875rem !default;
 $font-size-xs:   .75rem !default;
 
 $font-weight-normal: normal !default;
-$font-weight-bold: bold !default;
+$font-weight-bold: 700px !default;
 
 $font-weight-base: $font-weight-normal !default;
 $line-height-base: 1.5 !default;
@@ -725,6 +725,8 @@ $card-deck-margin:          ($grid-gutter-width-base / 2) !default;
 $card-columns-count:        3 !default;
 $card-columns-gap:          1.25rem !default;
 $card-columns-margin:       $card-spacer-y !default;
+
+$card-title:                8px !default;
 
 
 // Tooltips

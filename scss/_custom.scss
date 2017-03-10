@@ -11,3 +11,18 @@ $font-family-sans-serif: 'Poppins',-apple-system, system-ui, BlinkMacSystemFont,
 $font-family-serif:      Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:       $font-family-sans-serif;
+
+
+.jumbotron {
+	background-image: url(../images/music_hall.jpg);
+	background-attachment:fixed;
+	min-height:400px;
+}
+
+.card {
+	border: none !important;
+}
+
+
+
+

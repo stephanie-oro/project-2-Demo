@@ -4,6 +4,16 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.jumbotron {
+  background-image: url(../images/music_hall.jpg);
+  background-attachment: fixed;
+  min-height: 400px;
+}
+
+.card {
+  border: none !important;
+}
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -385,7 +395,7 @@ ul ol {
 }
 
 dt {
-  font-weight: bold;
+  font-weight: 700px;
 }
 
 dd {
@@ -730,7 +740,7 @@ kbd {
 kbd kbd {
   padding: 0;
   font-size: 100%;
-  font-weight: bold;
+  font-weight: 700px;
 }
 
 pre {
@@ -3827,6 +3837,7 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  color: #ff5b77;
 }
 
 .nav-link {
@@ -4414,7 +4425,6 @@ tbody.collapse.show {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 
@@ -4428,6 +4438,7 @@ tbody.collapse.show {
 
 .card-title {
   margin-bottom: 0.75rem;
+  font-size: 8px;
 }
 
 .card-subtitle {
@@ -4855,7 +4866,7 @@ tbody.collapse.show {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
-  font-weight: bold;
+  font-weight: 700px;
   line-height: 1;
   color: #fff;
   text-align: center;
@@ -4968,7 +4979,7 @@ a.badge:focus, a.badge:hover {
 }
 
 .alert-link {
-  font-weight: bold;
+  font-weight: 700px;
 }
 
 .alert-dismissible .close {
@@ -5391,7 +5402,7 @@ button.list-group-item-danger.active {
 .close {
   float: right;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 700px;
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
@@ -9157,7 +9168,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .font-weight-bold {
-  font-weight: bold;
+  font-weight: 700px;
 }
 
 .font-italic {
@@ -9326,5 +9337,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important;
   }
+}
+
+.card {
+  border: none !important;
 }
 /*# sourceMappingURL=bootstrap.css.map */

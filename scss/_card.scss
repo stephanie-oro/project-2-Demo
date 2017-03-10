@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   background-color: $card-bg;
-  border: $card-border-width solid $card-border-color;
+  //border: $card-border-width solid $card-border-color;
   @include border-radius($card-border-radius);
 }
 
@@ -20,6 +20,7 @@
 
 .card-title {
   margin-bottom: $card-spacer-y;
+  font-size:$card-title;
 }
 
 .card-subtitle {
@@ -161,7 +162,9 @@
 .card-img {
   // margin: -1.325rem;
   @include border-radius($card-border-radius-inner);
+  
 }
+
 .card-img-overlay {
   position: absolute;
   top: 0;

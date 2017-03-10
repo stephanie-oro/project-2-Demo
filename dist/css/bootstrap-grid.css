@@ -15,6 +15,16 @@ html {
           box-sizing: inherit;
 }
 
+.jumbotron {
+  background-image: url(../images/music_hall.jpg);
+  background-attachment: fixed;
+  min-height: 400px;
+}
+
+.card {
+  border: none !important;
+}
+
 .container {
   position: relative;
   margin-left: auto;
