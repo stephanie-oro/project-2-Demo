@@ -12,15 +12,24 @@ $font-family-serif:      Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:       $font-family-sans-serif;
 
+// Buttons
+//
+
+
 
 .jumbotron {
-	background-image: url(../images/music_hall.jpg);
+	background-image: url(../images/city_hall.png);
 	background-attachment:fixed;
 	min-height:400px;
 }
 
 .card {
 	border: none !important;
+}
+
+
+.bg-blue {
+	background-color: $blue;
 }
 
 

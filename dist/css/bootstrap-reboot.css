@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url(../images/music_hall.jpg);
+  background-image: url(../images/city_hall.png);
   background-attachment: fixed;
   min-height: 400px;
 }
@@ -335,12 +335,12 @@ blockquote {
 }
 
 a {
-  color: #0275d8;
+  color: #136ea5;
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: #014c8c;
+  color: #0b4060;
   text-decoration: underline;
 }
 

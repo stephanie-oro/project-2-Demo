@@ -95,13 +95,14 @@
 $white:  #fff !default;
 $black:  #000 !default;
 $red:    blue !default;
-$orange: #f0ad4e !default;
-$yellow: #ffd500 !default;
+$orange: #E2513D !default;
+$yellow: #FFB103 !default;
 $green:  #5cb85c !default;
-$blue:   #0275d8 !default;
+$blue:   #136ea5 !default;
 $teal:   #5bc0de !default;
 $pink:   #ff5b77 !default;
 $purple: #613d7c !default;
+
 
 // Create grayscale
 $gray-dark:                 #292b2c !default;
@@ -368,7 +369,7 @@ $btn-focus-box-shadow:           0 0 0 2px rgba($brand-primary, .25) !default;
 $btn-active-box-shadow:          inset 0 3px 5px rgba($black,.125) !default;
 
 $btn-primary-color:              $white !default;
-$btn-primary-bg:                 $brand-primary !default;
+$btn-primary-bg:                 $orange !default;
 $btn-primary-border:             $btn-primary-bg !default;
 
 $btn-secondary-color:            $gray-dark !default;

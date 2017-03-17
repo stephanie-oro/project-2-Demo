@@ -16,7 +16,7 @@ html {
 }
 
 .jumbotron {
-  background-image: url(../images/music_hall.jpg);
+  background-image: url(../images/city_hall.png);
   background-attachment: fixed;
   min-height: 400px;
 }

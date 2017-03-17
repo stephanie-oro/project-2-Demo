@@ -10,9 +10,9 @@
 <!-- start of nav -->
 	<div class="navbar-fixed-top nav">
 		<div class="container">
-			<div class="navbar-brand">
-			Inside Gov
-			</div>
+				<div class="navbar-brand">
+					<strong>Inside Gov</strong>
+				</div>
 				
 		</div>
 	</div>
@@ -21,81 +21,93 @@
 
 <!-- start of jumbotron -->
 <div class="jumbotron">
-<div class="container">
-	<h1>California (CA) - 90012</h1>
-	
-	
-</div>
+	<div class="container">
+		<h1 class="mt-4"><strong>C A L I F O R N I A</strong></h1>
+		<h1><strong>-90012-</strong></h1>
+	</div>
 </div>
 <!-- end of jumbotron -->
-<div class="container">
-	
 
-	<p>As of the 2010 census, zip code 90012 is located in <a href="#">Congressional District 34, CA.</a>
+
+<!-- district info -->
+<div class="container">
+	<p>As of the 2010 census, zip code 90012 is located in <a href="#" style="color:#E2513D">Congressional District 34, CA.</a>
 	</p>
 
 		<a href="#" class="btn btn-primary">See all District Zip Codes</a>
-
 </div>
 
 <hr>
+<!-- end of district info -->
+
+<div class="container-fluid d-flex align-items-center justify-content-center">
+		<h2><strong>D E M O G R A P H I C S</strong></h2>
+	
+	</div>
+
+<!-- start of demographics -->
+<div class="d-flex flex-wrap justify-content-center sm med lg">
+	
+	<div class="card" style="width: 15rem;">
+		  <div class="card-block text-center">
+		    <h6 class="text-center"><strong>Population</strong></h6>
+		    	<img src="images/pop_icon.png" alt="population icon">
+		    		<p class="text-center">714,351</p>
+		  </div>
+	</div>
+
+		<div class="card" style="width: 15rem;">
+		  <div class="card-block text-center">
+		    <h6 class="text-center"><strong>College Degree Percent</strong></h6>
+		    	<img style="text-align:center;" src="images/degree_icon.png" alt="Card image cap ">
+		    		<p class="text-center">22.9%<p>
+		    </div>
+		</div>
+
+
+		<div class="card" style="width: 15rem;">
+		  <div class="card-block text-center">
+		    <h6 class="text-center"><strong>Average Commute </strong></h6>
+		    	<img class="card-img-top" src="images/commute_icon.png" alt="Card image cap">
+		    		<p class="text-center">31.5 minutes</p>
+		    </div>
+		</div>
+
+
+		<div class="card" style="width: 15rem;">
+		  <div class="card-block text-center">
+		    <h6 class="text-center"><strong>Average Income</strong></h6>
+		    	<img class="card-img-top" src="images/income_icon.png" alt="Card image cap">
+		    		<p class="text-center">19,211</p>
+		    
+		  </div>
+		</div>
+</div>
+
 
 <!-- end of demographics -->
-<div class="d-flex flex-wrap justify-content-center sm med lg">
 
 
-		<div class="card" style="width: 15rem;">
-		  
-		  <div class="card-block">
-		    <h6 class="text-center">Population</h6>
-		    <img class="card-img-top" src="images/pop.png" alt="population icon">
-		    <p class="card-text text-center">714,351</p>
-		    
-		  </div>
-		</div>
-
-		<div class="card" style="width: 15rem;">
-		  
-		  <div class="card-block">
-		    <h6 class="text-center">Bachelor's Degree Percent</h6>
-		    <img class="card-img-top" src="..." alt="Card image cap">
-		    <p class="card-text">22.9%<p>
-		    
-		  </div>
-		</div>
 
 
-		<div class="card" style="width: 15rem;">
-		  
-		  <div class="card-block">
-		    <h6 class="text-center">Average Commute Time</h6>
-		    <img class="card-img-top" src="..." alt="Card image cap">
-		    <p class="card-text">minutes</p>
-		    
-		  </div>
-		</div>
+	
+	<div class="container-fluid d-flex align-items-center justify-content-center mb-4" style="background-color:#1D80B2; height:150px;">
+		<h1 class="text-white"><strong>O F F I C I A L S</strong></h1>
+	
+	</div>
+	
 
-		<div class="card" style="width: 15rem;">
-		  
-		  <div class="card-block">
-		    <h6 class="text-center">Average Income</h6>
-		    <img class="card-img-top" src="..." alt="Card image cap">
-		    <p class="card-text">19,211</p>
-		    
-		  </div>
-		</div>
-</div>
 
- 
-<hr>
- <!-- Representatives -->
+
+ <!-- Representative Tabs -->
 
   <!-- Nav tabs -->
   <div class="container">
+  
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#provincial" aria-controls="provincial" role="tab" data-toggle="tab">Provincial</a></li>
-    <li role="presentation"><a href="#intrastate" aria-controls="intrastate" role="tab" data-toggle="tab">Intrastate</a></li>
-    <li role="presentation"><a href="#congressional" aria-controls="congressional" role="tab" data-toggle="tab">Congressional</a></li>
+    <li role="presentation" class="nav-item active"><a class="nav-link" href="#provincial" aria-controls="provincial" role="tab" data-toggle="tab">Provincial</a></li>
+    <li role="presentation" class="nav-item"><a class="nav-link" href="#intrastate" aria-controls="intrastate" role="tab" data-toggle="tab">Intrastate</a></li>
+    <li role="presentation" class="nav-item"><a class="nav-link" href="#congressional" aria-controls="congressional" role="tab" data-toggle="tab">Congressional</a></li>
    
   </ul>
 
@@ -103,16 +115,87 @@
  <div class="container">
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="provincial">
-    	<div class="container">
-    		<img class="img-responsive" src="images/cedillo.jpg" alt="Gilbert Cedillo" align="center">
-			<h5 class="text-center">Gilbert Cedillo</h5>
+    	<div class="container text-center">
+    		<img class="my-4" src="images/cedillo.jpg" alt="Gilbert Cedillo">
+			<h5 class="text-center"><strong>Gilbert Cedillo</strong></h5>
 			<h5 class="text-center">City Council Member</h5>
+				
+				<div class="d-flex flex-wrap justify-content-center sm med lg">
+					<div class="card" style="width: 15rem;">
+		  				<div class="card-block">
+		   					 <img class="centered" src="images/phone.png" alt="population icon">
+		    						<p class="card-text text-center">(213)473-7001</p>
+		    						
+		  				</div>
+					</div>
+
+				<div class="card" style="width: 15rem;">
+		  			<div class="card-block">
+		   				 <img class="card-img-top" src="images/desktop.png" alt="Card image cap">
+		    					<p class="card-text text-center"><a href="#">gilcedillo.com</a><p>
+		    		</div>
+				</div>
+
+
+				<div class="card" style="width: 15rem;">
+		  			<div class="card-block">
+		   				 <img class="card-img-top" src="images/office_chair.png" alt="Card image cap">
+		    					<p class="card-text text-center">City Hall Office<br>
+		    					200 N. Spring Street, Room 460<br>
+		    					Office Hours: M-F 9:00AM - 5:00PM
+							
+		    					</p>
+		    			
+		    		</div>
+				</div>
+
+
+				
+</div>
+<div class="container">
+    		<img class="mb-4" src="images/cedillo.jpg" alt="Gilbert Cedillo">
+			<h5 class="text-center"><strong>Hilda L. Solis</strong></h5>
+			<h5 class="text-center">County Supervisor</h5>
+				
+				<div class="d-flex flex-wrap justify-content-center sm med lg">
+					<div class="card" style="width: 15rem;">
+		  				<div class="card-block">
+		   					 <img class="centered" src="images/phone.png" alt="population icon">
+		    						<p class="card-text text-center"> (213) 974-4111</p>
+		    						
+		  				</div>
+					</div>
+
+				<div class="card" style="width: 15rem;">
+		  			<div class="card-block">
+		   				 <img class="card-img-top" src="images/desktop.png" alt="Card image cap">
+		    					<p class="card-text text-center"><a href="#">hildalsolis.org/</a><p>
+		    		</div>
+				</div>
+
+
+				<div class="card" style="width: 15rem;">
+		  			<div class="card-block">
+		   				 <img class="card-img-top" src="images/office_chair.png" alt="Card image cap">
+		    					<p class="card-text text-center">856 Kenneth Hahn<br> Hall of Administration<br>
+		    					200 N. Spring Street, Room 460<br>
+		    					Office Hours: M-F 9:00AM - 5:00PM
+							
+		    					</p>
+		    			
+		    		</div>
+				</div>
+
+
+				
+			</div>
 		</div>
 	</div>
+</div>
     
     <div role="tabpanel" class="tab-pane" id="intrastate">
     	<div class="container">
-    		<span class="centerImage"><img src="images/leon.jpg" /></span>
+    		<img class="mb-4" src="images/leon.jpg" alt="Kevin De León">
 			<h5 class="text-center">Kevin De León</h5>
 			<h5 class="text-center">State Senate Member</h5>
 
@@ -122,7 +205,7 @@
     
     <div role="tabpanel" class="tab-pane" id="congressional">
     		<div class="container">
-    		<img class="img-responsive reps" src="images/becerra.jpg" alt="xavier becerra" align="center">
+    		<img class="img-responsive reps mb-4" src="images/becerra.jpg" alt="xavier becerra">
 			<h5 class="text-center">Xavier Becerra</h5>
 			<h5 class="text-center">Representative</h5>
 		</div>
